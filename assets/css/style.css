@@ -1,0 +1,57 @@
+
+/* Format wrapper for appropriate sizing */
+
+.wrapper {
+width: 960px;
+box-sizing: border-box;
+}
+
+/* Your Name Div - teal background, white color, Georgia Times font */
+
+.name {
+    color: #ffffff;
+    background-color: #4aaaa5;
+    padding: 20px;
+
+}
+
+/* Content - background Subtle Patterns, width 960px, border #dddddd */
+
+.maincontent {
+/* width: 960px; */
+border-image: url("../images/freshsnowbckgd.png") 25% round;
+border: 150px solid transparent;
+/* box-sizing: border-box;
+padding: 50px; */
+
+}
+/* About Me header - white background, teal color, Georgia Times font */
+
+h2 {
+border-bottom-color: #cccccc;
+color: #4aaaa5;
+background-color: #ffffff;
+}
+
+/* Image formatting - left and sizing */
+
+#imgofme {
+    display: block;
+    float: left;
+    width: 200px;
+    height: 150px;
+    padding: 20px;
+}
+
+/* Paragraph about me - Arial font,  */
+
+p {
+
+}
+
+/* Footer - sticky footer stays at bottom, border-top 8px solid #4aaaa5 */
+
+footer {
+    background-color: #666666;
+    border-top: 8px solid #4aaaa5;
+}
