@@ -7,13 +7,15 @@ html, body {
 body {
     /* display: flex;
     flex-direction: column; */
+    width: 960px;
+    box-sizing: border-box;
 }
 
 /* Format wrapper for appropriate sizing */
 
 .wrapper {
-width: 960px;
-box-sizing: border-box;
+/* width: 960px;
+box-sizing: border-box; */
 /* flex: 1 0 auto; */
 position: relative;
 top: 20%;
