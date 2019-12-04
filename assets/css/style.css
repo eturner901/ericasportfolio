@@ -1,9 +1,26 @@
 
+/* Format for sticky footer */
+html, body {
+    height: 100%;
+}
+
+body {
+    /* display: flex;
+    flex-direction: column; */
+}
+
 /* Format wrapper for appropriate sizing */
 
 .wrapper {
 width: 960px;
 box-sizing: border-box;
+/* flex: 1 0 auto; */
+position: relative;
+top: 20%;
+left: 20%
+/* top: 300px;
+left: 500px; */
+/* position: fixed; */
 }
 
 /* Your Name Div - teal background, white color, Georgia Times font */
@@ -12,15 +29,40 @@ box-sizing: border-box;
     color: #ffffff;
     background-color: #4aaaa5;
     padding: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    position: fixed;
+    top: 13%;
+}
 
+/* About Link positioning */
+.aboutlink {
+    position: absolute;
+    top: -4%;
+    right: 20%;
+}
+
+/* Portfolio link positioning */
+.portfoliolink {
+    position: absolute;
+    top: -4%;
+    right: 13%;
+
+}
+
+/* Contact link positioning */
+.contactlink {
+    position: absolute;
+    top: -4%;
+    right: 7%;
 }
 
 /* Content - background Subtle Patterns, width 960px, border #dddddd */
 
 .maincontent {
 /* width: 960px; */
-border-image: url("../images/freshsnowbckgd.png") 25% round;
-border: 150px solid transparent;
+/* border-image: url("../images/freshsnowbckgd.png") 25% round;
+border: 150px solid transparent; */
 /* box-sizing: border-box;
 padding: 50px; */
 
@@ -28,15 +70,21 @@ padding: 50px; */
 /* About Me header - white background, teal color, Georgia Times font */
 
 h2 {
-border-bottom-color: #cccccc;
-color: #4aaaa5;
-background-color: #ffffff;
+    border-bottom: 1px solid #cccccc;
+    color: #4aaaa5;
+    background-color: #ffffff;
+    position: absolute;
+    top: -1%;
+    left: -1%;
+    width: 100%;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 /* Image formatting - left and sizing */
 
 #imgofme {
-    display: block;
+    /* display: block; */
     float: left;
     width: 200px;
     height: 150px;
@@ -46,7 +94,12 @@ background-color: #ffffff;
 /* Paragraph about me - Arial font,  */
 
 p {
-
+    padding: 8%;
+    position: absolute;
+    top: 5%;
+    left: -10%;
+    line-height: 1.6;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Footer - sticky footer stays at bottom, border-top 8px solid #4aaaa5 */
@@ -54,4 +107,9 @@ p {
 footer {
     background-color: #666666;
     border-top: 8px solid #4aaaa5;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    top: 90%;
+    /* flex-shrink: -10; */
 }
