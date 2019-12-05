@@ -9,6 +9,7 @@ body {
     flex-direction: column; */
     width: 960px;
     box-sizing: border-box;
+    /* background-color: gray; */
 }
 
 /* Format wrapper for appropriate sizing */
@@ -71,7 +72,7 @@ padding: 50px; */
 }
 /* About Me header - white background, teal color, Georgia Times font */
 
-h2 {
+/* h2 {
     border-bottom: 1px solid #cccccc;
     color: #4aaaa5;
     background-color: #ffffff;
@@ -81,7 +82,7 @@ h2 {
     width: 100%;
     padding: 10px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-}
+} */
 
 /* Image formatting - left and sizing */
 
@@ -115,3 +116,100 @@ footer {
     top: 90%;
     /* flex-shrink: -10; */
 }
+
+
+.pagewrapper {
+    position: relative;
+    top: 10%;
+    left: 30%
+    }
+
+body {
+    /* display: flex;
+    flex-direction: column; */
+    
+}
+
+/* .bgwrapper {
+    background-color: yellow;
+} */
+
+.contactcontent {
+    background-color: white;
+    width: 960px;
+    /* box-sizing: border-box;
+    border-top: 20px solid;
+    border-left: 300px solid;
+    border-right: 300px solid;
+    border-bottom: 500px solid;
+    border-image: url("../images/freshsnowbckgd.png") 100; */
+}
+
+
+/* remove bullets and margins and padding from unordered list */
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+li {
+    display: inline;
+
+}
+
+.navbar {
+    background-color: white;
+    text-align: right;
+    position: fixed;
+    top: 10%;
+    right: 20%;
+}
+
+
+
+h2 {
+    border-bottom: 2px solid #cccccc;
+    color: #4aaaa5;
+    background-color: #ffffff;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.logo {
+    text-align: left;
+    background-color: #4aaaa5;
+    color: white;
+    padding: 30px;
+    font-size: 24px;
+    position: fixed;
+    top: 2%;
+    
+}
+
+footer {
+    background-color: #666666;
+    border-top: 8px solid #4aaaa5;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    top: 90%;
+    text-align: center;
+}
+
+input {
+    width: 300px;
+}
+
+textarea {
+    width: 300px;
+}
+
+.submit {
+    width: 80px;
+    background-color: #4aaaa5;
+    color: white;
+}
+
+
